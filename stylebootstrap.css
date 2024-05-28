@@ -61,7 +61,7 @@ h4 {
 
 h5 {
   font-size: 1.4375rem;
-  color: var(--primary-color);
+  color: var(--primary-900);
   font-family: "DisplayUbuntu";
 }
 
@@ -167,3 +167,4 @@ p {
   height: auto;
   display: block;
 }
+
