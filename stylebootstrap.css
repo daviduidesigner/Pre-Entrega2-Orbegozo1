@@ -170,6 +170,6 @@ p {
 }
 
 .container-fluid.fixed-top {
-  background-color: var(--primary-400); /* Color de fondo con 16% de opacidad */
-  box-shadow: 0 1px 80px rgba(0, 0, 0, 0.16); /* Sombra con desplazamiento horizontal 0, desplazamiento vertical 1px, desenfoque 80px y 16% de opacidad */
+  background-color: var(--primary-400);
+  box-shadow: 0 1px 80px rgba(0, 0, 0, 0.16);
 }
