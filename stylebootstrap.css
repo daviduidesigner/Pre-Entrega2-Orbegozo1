@@ -1,5 +1,6 @@
 body {
   background-color: var(--primary-400);
+  padding-top: 140px;
 }
 
 @font-face {
@@ -142,7 +143,7 @@ p {
   }
 }
 
-/*Para formulario de contacto*/
+/* seccion ara formulario de contacto*/
 
 .custom-input {
   border-radius: 24px;
@@ -168,3 +169,7 @@ p {
   display: block;
 }
 
+.container-fluid.fixed-top {
+  background-color: var(--primary-400); /* Color de fondo con 16% de opacidad */
+  box-shadow: 0 1px 80px rgba(0, 0, 0, 0.16); /* Sombra con desplazamiento horizontal 0, desplazamiento vertical 1px, desenfoque 80px y 16% de opacidad */
+}
