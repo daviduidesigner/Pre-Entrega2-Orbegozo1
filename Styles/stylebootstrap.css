@@ -13,19 +13,20 @@ body {
 
 @font-face {
   font-family: "Display";
-  src: url("/Assets/Fuentes/DM_Serif_Display/DMSerifDisplay-Regular.ttf")
-    format("truetype");
+  src: url("../Assets/Fuentes/DM_Serif_Display/DMSerifDisplay-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "paragraph";
-  src: url("/Assets/Fuentes/Ubuntu/Ubuntu-Light.ttf") format("truetype");
+  src: url("../Assets/Fuentes/Ubuntu/Ubuntu-Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "DisplayUbuntu";
-  src: url("/Assets/Fuentes/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
+  src: url("../Assets/Fuentes/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
 }
+
+
 
 :root {
   --primary-900: #5d3d44;
