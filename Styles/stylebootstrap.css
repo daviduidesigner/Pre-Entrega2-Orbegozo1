@@ -180,9 +180,30 @@ p {
 .container-fluid.fixed-top {
   background-color: var(--primary-400);
   box-shadow: 0 1px 80px rgba(0, 0, 0, 0.16);
+  padding-left: 8%; 
+  padding-right: 8%; 
+  padding-top: 2%; 
+  padding-bottom: 2%;
 }
 
-.custom-navbar {
-  background-color: var(--primary-400);
-  box-shadow: 0 1px 80px rgba(0, 0, 0, 0.16);
+.text-center {
+padding-left: 8%;
+padding-right: 8%;
+padding-top: 16px;
+padding-bottom: 4px;
+line-height: 0px;
+background-color: var(--secondary-300);
+}
+
+.text-left {
+  color: var(--primary-900);
+}
+
+.form-control {
+  height: 36px;
+  padding: 10px 16px;
+  border-radius: 24px;
+  margin-bottom: 16px;
+  color: var(--secondary-700);
+
 }
