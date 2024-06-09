@@ -102,9 +102,7 @@ p {
   color: var(--primary-900);
   border: 1px solid var(--primary-500);
   border-radius: 24px;
-  transition: color 300ms ease-out, background-color 300ms ease-out,
-    border-color 300ms ease-out;
-
+  transition: color 300ms ease-out, background-color 300ms ease-out, border-color 300ms ease-out;
   line-height: 36px;
 
   &:hover {
