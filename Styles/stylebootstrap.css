@@ -165,6 +165,10 @@ p {
   color: var(--white);
 }
 
+.image-container1 {
+  width: 100%;
+  overflow: hidden;
+}
 .image-container {
   width: 100%;
   overflow: hidden;
@@ -381,4 +385,28 @@ p {
   #navbarmobile {
     display: block;
   }
+  
+}
+
+.desktop-only, .mobile-only {
+  display: none;
+}
+.image-container1 img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 701px) {
+  .desktop-only {
+    display: block;
+  }
+}
+@media (max-width: 700px) {
+  .mobile-only {
+    display: block;
+  }
+}
+.mobile-only img {
+  min-height: 400px; 
+  width: auto;
 }
