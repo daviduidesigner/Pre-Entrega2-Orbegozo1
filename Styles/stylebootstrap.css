@@ -336,16 +336,19 @@ p {
 }
 
 .img-fluid {
-  width: 80%;
+  width: 100%;
 }
+
+
 
 .custom-column {
   background-color: var(--secondary-300);
-  border: 1px solid var(--primary-900);
+  border: 1px solid var(--secondary-400);
   border-radius: 36px;
   padding: 16px;
   margin-bottom: 16px;
 }
+
 
 .custom-column img {
   border-radius: 8px;
@@ -366,3 +369,4 @@ p {
   line-height: 1.1;
 
 }
+
