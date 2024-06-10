@@ -3,6 +3,10 @@ body {
   padding-top: 140px;
 }
 
+.paddingtop-internos {
+  padding-top: 140px;
+  margin-top: -140px;
+}
 
 @media (max-width: 768px) {
   body {
@@ -242,6 +246,13 @@ p {
   line-height: 1.1;
 }
 
+.titulo-grande-blanco {
+  font-family: "Display";
+  font-weight: 500;
+  font-size: 70px;
+  color: var(--white);
+  line-height: 1.1;
+}
 
 .card {
   border: none;
@@ -280,4 +291,78 @@ p {
   width: 100%;
   height: 100%;
   border-radius: 36px;
+}
+
+.custom-aside {
+  background-color: var(--white);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.custom-section {
+  padding: 8% 8%;
+  height: 100%;
+  background-image: url('./../Assets/Imagenes/div\ bannercontact.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.custom-card {
+  border: none;
+  border-radius: 8px;
+  background-color: var(--white);
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 32px;
+  gap: 24px;
+}
+
+.custom-card .card-body {
+  padding: 16px;
+}
+
+.custom-card .card-title {
+  margin-bottom: 8px;
+}
+
+.custom-card .card-text {
+  margin-bottom: 0;
+}
+
+.img-custom {
+  height: 100%;
+  border-radius: 16px;
+}
+
+.img-fluid {
+  width: 80%;
+}
+
+.custom-column {
+  background-color: var(--secondary-300);
+  border: 1px solid var(--primary-900);
+  border-radius: 36px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.custom-column img {
+  border-radius: 8px;
+}
+.custom-row {
+  gap: 24px;
+}
+
+.container-fluid-color1 {
+  background-color: var(--white);
+  padding: 2% 8%;
+}
+
+.texto56 {
+  font-size: 56px;
+  font-family: "Display";
+  color: var(--primary-900);
+  line-height: 1.1;
+
 }

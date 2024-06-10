@@ -15,8 +15,7 @@
 
     
 <header>
-    <div class="container-fluid fixed-top"
-        style="padding-left: 8%; padding-right: 8%; padding-top: 2%; padding-bottom: 2%;">
+    <div class="container-fluid fixed-top">
         <div class="row align-items-center justify-content-between">
             <div class="col-md-6 d-flex justify-content-start">
                 <a href="../Index.html">
@@ -50,12 +49,12 @@
 </header>
 
 
-<section class="container-fluid d-flex align-items-center" style="padding: 8% 8%; height: 100%; background-image: url('./../Assets/Imagenes/div\ bannercontact.jpg'); background-size: cover; background-position: center;">
+<section class="container-fluid d-flex align-items-center custom-section">
     <div class="row w-100" style="gap: 64px;">
         <article class="col d-flex flex-column justify-content-end align-items-end">
             <div class="row w-100">
                 <div class="col text-end">
-                    <h1 class="custom-h1">Contacto</h1>
+                    <div class="titulo-grande-blanco">Contacto</div>
                 </div>
             </div>
             <div class="row w-100 mt-3">
@@ -64,7 +63,7 @@
                 </div>
             </div>
         </article>
-        <aside class="col" style="background-color: var(--white); border-radius: 16px; padding: 24px;">
+        <aside class="col custom-aside">
             <form>
                 <div class="row mb-4">
                     <div class="col">
@@ -185,52 +184,58 @@
         </div>
 </Section>
 
+<!-- Prueba segundo footer + -->
 
-<Section class="newsletter">
-        <div class="container-fluid-newsletter">
-            <div class="row justify-content-between">
+<section class="newsletter">
+    
+    <div class="container-fluid-newsletter">
+        <div class="row justify-content-between">
 
-                <div class="col-md-6">
+            <div class="col-md-6">
 
-                    <div class="row">
-                        <div class="col">
-                            <h2 class="text-left">Suscríbete a nuestro Newsletter
-                            </h2>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-left">¡Sé el primero en enterarte de todos
-                                nuestros eventos!</p>
-                        </div>
+                <div class="row">
+                    <div class="col">
+                        <h1 class="text-left">Suscríbete a nuestro Newsletter</h1>
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="row">
+                    <div class="col">
+                        <p class="text-left">¡Sé el primero en enterarte de todos
+                            nuestros eventos!</p>
+                    </div>
+                </div>
+            </div>
 
-                    <div class="row">
-                        <div class="col">
-                            <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
+            <div class="col-md-6">
+
+                <div class="row">
+                    <div class="col">
+                        <input type="email" class="form-control"
+                    
+                            placeholder="Ingresa tu correo electrónico">
+                    </div>
+                </div>
+
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1"
+                                style="color: var(--primary-900);">Acepto los términos y condiciones</label>
                         </div>
                     </div>
-
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                <label class="form-check-label" for="defaultCheck1"
-                                    style="color: var(--primary-900);">Acepto los términos y condiciones</label>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <button class="btn btn-secondary-custom">Suscribirse</button>
-                        </div>
+                    <div class="col-auto">
+                        <button class="btn btn-secondary-custom">Suscribirse</button>
                     </div>
                 </div>
             </div>
         </div>
-</Section>
+    </div>
+</section>
+
+
+
 
 <footer>
     
@@ -334,6 +339,8 @@
     </div>
 
 </footer>
+
+
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
