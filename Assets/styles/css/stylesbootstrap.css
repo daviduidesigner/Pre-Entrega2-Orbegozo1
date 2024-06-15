@@ -12,17 +12,17 @@ body {
 
 @font-face {
   font-family: "Display";
-  src: url("../Assets/Fuentes/DM_Serif_Display/DMSerifDisplay-Regular.ttf") format("truetype");
+  src: url("../../Fuentes/DM_Serif_Display/DMSerifDisplay-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "paragraph";
-  src: url("../Assets/Fuentes/Ubuntu/Ubuntu-Light.ttf") format("truetype");
+  src: url("../../Fuentes/Ubuntu/Ubuntu-Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "DisplayUbuntu";
-  src: url("../Assets/Fuentes/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
+  src: url("../../Fuentes/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
 }
 
 
@@ -301,7 +301,7 @@ p {
 .custom-section {
   padding: 8% 8%;
   height: 100%;
-  background-image: url('./../Assets/Imagenes/div\ bannercontact.jpg');
+  background-image: url('../../imagenes/bannercontact.jpg');
   background-size: cover;
   background-position: center;
 }
