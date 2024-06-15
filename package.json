@@ -1,0 +1,26 @@
+{
+  "name": "natali-sarmiento-ballet-studio",
+  "version": "1.0.0",
+  "description": "Creacion de sitio web para proyecto de ejercio de desarrollo web",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviduidesigner/Pre-Entrega2-Orbegozo1.git"
+  },
+  "keywords": [
+    "escuela",
+    "de",
+    "ballet",
+    "baby",
+    "ballet"
+  ],
+  "author": "David Orbegozo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviduidesigner/Pre-Entrega2-Orbegozo1/issues"
+  },
+  "homepage": "https://github.com/daviduidesigner/Pre-Entrega2-Orbegozo1#readme"
+}
