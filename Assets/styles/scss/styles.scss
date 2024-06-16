@@ -410,5 +410,31 @@ body {
     min-height: 400px; 
     width: auto;
   }
+
+
   
-  
+.custom-container2 {
+  background: url(../../imagenes/bannertestimonios.jpg);
+  padding: 4% 8%;
+  height: 500px;
+}
+
+.custom-card1 {
+  border-radius: 28px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  height: 100%;
+}
+
+
+.carousel-item img {
+  border-radius: 32px;
+}
+
+
+
+.card-img-top {
+  width: auto;
+}
