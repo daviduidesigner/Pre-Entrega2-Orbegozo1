@@ -393,7 +393,7 @@ p {
 }
 
 .custom-container2 {
-  background: url(../../imagenes/bannertestimonios.jpg);
+  background-image: url(../../Imagenes/bannertestimonios.png);
   padding: 4% 8%;
   height: 500px;
 }
@@ -413,6 +413,10 @@ p {
 
 .card-img-top {
   width: auto;
+}
+
+#backgroudcolocaciones {
+  background-color: var(--white);
 }
 
 /*# sourceMappingURL=styles.css.map */
